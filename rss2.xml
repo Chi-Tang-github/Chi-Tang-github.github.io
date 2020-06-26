@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Chi_Tang&#39;s Blog</title>
+    <link>https://chi-tang-github.github.io/</link>
+    
+    <image>
+      <url>https://chi-tang-github.github.io//icon.png</url>
+      <title>Chi_Tang&#39;s Blog</title>
+      <link>https://chi-tang-github.github.io/</link>
+    </image>
+    
+    <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>一位初中生做的淹没在茫茫互联网海洋中的简单博客罢了</description>
+    <pubDate>Fri, 26 Jun 2020 07:12:00 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Hexo博客折腾笔记</title>
+      <link>https://chi-tang-github.github.io//2020/06/26/Hexo%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</link>
+      <guid>https://chi-tang-github.github.io//2020/06/26/Hexo%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</guid>
+      <pubDate>Fri, 26 Jun 2020 03:14:45 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h5 id=&quot;昨天闲来无事折腾了下hexo博客-今天趁着自己还能记得住-简单写一下好了-以及不要吐槽我用Windows&quot;&gt;&lt;a href=&quot;#昨天闲来无事折腾了下hexo博客-今天趁着自己还能记得住-简单写一下好了-以及不要吐槽我用Windows&quot;
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://chi-tang-github.github.io//2020/06/26/Hexo%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Hello, World!</title>
+      <link>https://chi-tang-github.github.io//2020/06/25/Hello-World-0/</link>
+      <guid>https://chi-tang-github.github.io//2020/06/25/Hello-World-0/</guid>
+      <pubDate>Thu, 25 Jun 2020 12:49:30 GMT</pubDate>
+      <description>
+      
+      </description>
+      
+      
+      <comments>https://chi-tang-github.github.io//2020/06/25/Hello-World-0/#disqus_thread</comments>
+    </item>
+    
+  </channel>
+</rss>
