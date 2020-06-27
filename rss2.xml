@@ -15,8 +15,21 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>一位初中生做的淹没在茫茫互联网海洋中的简单博客罢了</description>
-    <pubDate>Fri, 26 Jun 2020 07:12:00 GMT</pubDate>
+    <pubDate>Sat, 27 Jun 2020 03:04:35 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>GIthub Pages转Gitee Pages折腾笔记</title>
+      <link>https://chi-tang-github.github.io//2020/06/27/GIthub-Pages%E8%BD%ACGitee-Pages%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</link>
+      <guid>https://chi-tang-github.github.io//2020/06/27/GIthub-Pages%E8%BD%ACGitee-Pages%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</guid>
+      <pubDate>Sat, 27 Jun 2020 03:04:35 GMT</pubDate>
+      <description>
+      
+      </description>
+      
+      
+      <comments>https://chi-tang-github.github.io//2020/06/27/GIthub-Pages%E8%BD%ACGitee-Pages%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Hexo博客折腾笔记</title>
