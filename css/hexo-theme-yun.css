@@ -1853,8 +1853,8 @@ td {
 #site-overview-wrap {
   padding-top: 2rem;
 }
-.site-info.fix-top {
-  margin-top: -1.5rem;
+.site-info.mickey-mouse {
+  margin-top: -2.8rem;
 }
 .site-author-avatar {
   display: inline-block;
@@ -2055,26 +2055,6 @@ td {
 }
 #search .icon {
   color: #0078e7;
-}
-#comment {
-  margin: 0 1rem;
-  padding: 1rem;
-  background-color: var(--post-block-bg-color);
-}
-@media screen and (max-width: 768px) {
-  #comment {
-    margin: 0;
-  }
-}
-.comment-tooltip {
-  font-size: 0.8rem;
-  color: var(--hty-text-color);
-}
-#github-issues {
-  margin: 1rem;
-}
-.v[data-class=v] p {
-  color: var(--hty-secondary-text-color) !important;
 }
 #say {
   color: var(--hty-text-color);

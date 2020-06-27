@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>为hexo-theme-yun增加 开往 按钮</title>
+      <link href="/2020/06/27/%E4%B8%BAhexo-theme-yun%E5%A2%9E%E5%8A%A0-%E5%BC%80%E5%BE%80-%E6%8C%89%E9%92%AE/"/>
+      <url>/2020/06/27/%E4%B8%BAhexo-theme-yun%E5%A2%9E%E5%8A%A0-%E5%BC%80%E5%BE%80-%E6%8C%89%E9%92%AE/</url>
+      
+        <content type="html"><![CDATA[<h1 id="博客⑨④爽-一天一更不是梦（大雾"><a href="#博客⑨④爽-一天一更不是梦（大雾" class="headerlink" title="博客⑨④爽 一天一更不是梦（大雾"></a>博客⑨④爽 一天一更不是梦（大雾</h1><p>好了说回正题</p><p>这几天看到了<a href="https://github.com/volfclub/travellings" target="_blank" rel="noopener">开往</a>这个项目</p><p>友链分享</p><p>个人感觉挺有意思</p><p>又看到云游君自己的<code>Docs</code>里面没写</p><p>那咱就折腾折腾呗</p><hr><p><u>有一说一挺简单的</u></p><p>只需要找到</p><p><code>&lt;hexo工作目录&gt;\source\_data\yun.yml</code>（没有就新建 愣着干啥啊）</p><p>用文本编辑器打开（我使用<code>Visual Studio Code</code>）</p><p>增加<code>social</code>部分</p><p>我这里这样写</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">开往</span>  <span class="string">//按钮名称</span> <span class="string">可自定义</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://travellings.now.sh/</span>  <span class="string">//开往的链接</span></span><br><span class="line">  <span class="attr">icon:</span> <span class="string">icon-send-plane-2-line</span>  <span class="string">//图标</span> <span class="string">我在</span> <span class="string">Yun</span> <span class="string">默认图标库里扒拉出来了个是个点的</span> <span class="string">写上就完事了</span></span><br><span class="line">  <span class="attr">color:</span> <span class="string">"#000000"</span>  <span class="string">//颜色</span> <span class="string">我这里用黑色</span></span><br></pre></td></tr></table></figure><p>然后你就可以去<a href="https://github.com/volfclub/travellings/issues" target="_blank" rel="noopener">开往的申请收录页面</a>去申请啦</p><p>如果填的没毛病你的博客就能到开往里面了</p><hr><p>其实个人感觉像开往这种东西很有意义</p><p>我们都是个人用户</p><p>谁都不认识谁</p><p>有了<code>开往</code>以后能明显扩大这个圈子</p><p>有事没事点一点<del>爽到赛神仙</del></p><p>互相认识认识也挺好的呀</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo博客折腾笔记</title>
       <link href="/2020/06/26/Hexo%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/"/>
       <url>/2020/06/26/Hexo%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</url>
