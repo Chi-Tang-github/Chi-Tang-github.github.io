@@ -15,8 +15,29 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>只是一个普通的初中生罢了</description>
-    <pubDate>Sat, 27 Jun 2020 09:00:33 GMT</pubDate>
+    <pubDate>Thu, 30 Jul 2020 11:40:26 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>为-Github-Pages-增加域名解析并使用-SSL</title>
+      <link>https://chitang233.github.io/2020/07/30/%E4%B8%BA-Github-Pages-%E5%A2%9E%E5%8A%A0%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E5%B9%B6%E4%BD%BF%E7%94%A8-SSL/</link>
+      <guid>https://chitang233.github.io/2020/07/30/%E4%B8%BA-Github-Pages-%E5%A2%9E%E5%8A%A0%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E5%B9%B6%E4%BD%BF%E7%94%A8-SSL/</guid>
+      <pubDate>Thu, 30 Jul 2020 11:22:10 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h1 id=&quot;获取域名&quot;&gt;&lt;a href=&quot;#获取域名&quot; class=&quot;headerlink&quot; title=&quot;获取域名&quot;&gt;&lt;/a&gt;获取域名&lt;/h1&gt;&lt;p&gt;去&lt;a
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://chitang233.github.io/2020/07/30/%E4%B8%BA-Github-Pages-%E5%A2%9E%E5%8A%A0%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E5%B9%B6%E4%BD%BF%E7%94%A8-SSL/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>为hexo-theme-yun增加 开往 按钮</title>
