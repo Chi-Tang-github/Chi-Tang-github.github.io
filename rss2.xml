@@ -4,12 +4,12 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Chi_Tang&#39;s Blog</title>
-    <link>https://chitang233.github.io/</link>
+    <link>https://chitang.tk/</link>
     
     <image>
-      <url>https://chitang233.github.io/icon.png</url>
+      <url>https://chitang.tk/icon.png</url>
       <title>Chi_Tang&#39;s Blog</title>
-      <link>https://chitang233.github.io/</link>
+      <link>https://chitang.tk/</link>
     </image>
     
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
@@ -20,8 +20,8 @@
     
     <item>
       <title>为-Github-Pages-增加域名解析并使用-SSL</title>
-      <link>https://chitang233.github.io/2020/07/30/%E4%B8%BA-Github-Pages-%E5%A2%9E%E5%8A%A0%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E5%B9%B6%E4%BD%BF%E7%94%A8-SSL/</link>
-      <guid>https://chitang233.github.io/2020/07/30/%E4%B8%BA-Github-Pages-%E5%A2%9E%E5%8A%A0%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E5%B9%B6%E4%BD%BF%E7%94%A8-SSL/</guid>
+      <link>https://chitang.tk/2020/07/30/%E4%B8%BA-Github-Pages-%E5%A2%9E%E5%8A%A0%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E5%B9%B6%E4%BD%BF%E7%94%A8-SSL/</link>
+      <guid>https://chitang.tk/2020/07/30/%E4%B8%BA-Github-Pages-%E5%A2%9E%E5%8A%A0%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E5%B9%B6%E4%BD%BF%E7%94%A8-SSL/</guid>
       <pubDate>Thu, 30 Jul 2020 11:22:10 GMT</pubDate>
       <description>
       
@@ -36,13 +36,13 @@
       </description>
       
       
-      <comments>https://chitang233.github.io/2020/07/30/%E4%B8%BA-Github-Pages-%E5%A2%9E%E5%8A%A0%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E5%B9%B6%E4%BD%BF%E7%94%A8-SSL/#disqus_thread</comments>
+      <comments>https://chitang.tk/2020/07/30/%E4%B8%BA-Github-Pages-%E5%A2%9E%E5%8A%A0%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E5%B9%B6%E4%BD%BF%E7%94%A8-SSL/#disqus_thread</comments>
     </item>
     
     <item>
       <title>为hexo-theme-yun增加 开往 按钮</title>
-      <link>https://chitang233.github.io/2020/06/27/%E4%B8%BAhexo-theme-yun%E5%A2%9E%E5%8A%A0-%E5%BC%80%E5%BE%80-%E6%8C%89%E9%92%AE/</link>
-      <guid>https://chitang233.github.io/2020/06/27/%E4%B8%BAhexo-theme-yun%E5%A2%9E%E5%8A%A0-%E5%BC%80%E5%BE%80-%E6%8C%89%E9%92%AE/</guid>
+      <link>https://chitang.tk/2020/06/27/%E4%B8%BAhexo-theme-yun%E5%A2%9E%E5%8A%A0-%E5%BC%80%E5%BE%80-%E6%8C%89%E9%92%AE/</link>
+      <guid>https://chitang.tk/2020/06/27/%E4%B8%BAhexo-theme-yun%E5%A2%9E%E5%8A%A0-%E5%BC%80%E5%BE%80-%E6%8C%89%E9%92%AE/</guid>
       <pubDate>Sat, 27 Jun 2020 08:46:54 GMT</pubDate>
       <description>
       
@@ -57,13 +57,13 @@
       </description>
       
       
-      <comments>https://chitang233.github.io/2020/06/27/%E4%B8%BAhexo-theme-yun%E5%A2%9E%E5%8A%A0-%E5%BC%80%E5%BE%80-%E6%8C%89%E9%92%AE/#disqus_thread</comments>
+      <comments>https://chitang.tk/2020/06/27/%E4%B8%BAhexo-theme-yun%E5%A2%9E%E5%8A%A0-%E5%BC%80%E5%BE%80-%E6%8C%89%E9%92%AE/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Hexo博客折腾笔记</title>
-      <link>https://chitang233.github.io/2020/06/26/Hexo%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</link>
-      <guid>https://chitang233.github.io/2020/06/26/Hexo%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</guid>
+      <link>https://chitang.tk/2020/06/26/Hexo%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</link>
+      <guid>https://chitang.tk/2020/06/26/Hexo%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</guid>
       <pubDate>Fri, 26 Jun 2020 03:14:45 GMT</pubDate>
       <description>
       
@@ -79,20 +79,20 @@
       </description>
       
       
-      <comments>https://chitang233.github.io/2020/06/26/Hexo%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/#disqus_thread</comments>
+      <comments>https://chitang.tk/2020/06/26/Hexo%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Hello, World!</title>
-      <link>https://chitang233.github.io/2020/06/25/Hello-World-0/</link>
-      <guid>https://chitang233.github.io/2020/06/25/Hello-World-0/</guid>
+      <link>https://chitang.tk/2020/06/25/Hello-World-0/</link>
+      <guid>https://chitang.tk/2020/06/25/Hello-World-0/</guid>
       <pubDate>Thu, 25 Jun 2020 12:49:30 GMT</pubDate>
       <description>
       
       </description>
       
       
-      <comments>https://chitang233.github.io/2020/06/25/Hello-World-0/#disqus_thread</comments>
+      <comments>https://chitang.tk/2020/06/25/Hello-World-0/#disqus_thread</comments>
     </item>
     
   </channel>

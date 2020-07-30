@@ -81,7 +81,7 @@
       <link href="//404.html"/>
       <url>//404.html</url>
       
-        <content type="html"><![CDATA[<h1 id="哈-你似乎访问了一个不存在的页面"><a href="#哈-你似乎访问了一个不存在的页面" class="headerlink" title="哈 你似乎访问了一个不存在的页面"></a>哈 你似乎访问了一个不存在的页面</h1><h2 id="不过你现在可以回去了"><a href="#不过你现在可以回去了" class="headerlink" title="不过你现在可以回去了"></a>不过你现在可以<a href="https://chitang233.github.io">回去</a>了</h2>]]></content>
+        <content type="html"><![CDATA[<h1 id="哈-你似乎访问了一个不存在的页面"><a href="#哈-你似乎访问了一个不存在的页面" class="headerlink" title="哈 你似乎访问了一个不存在的页面"></a>哈 你似乎访问了一个不存在的页面</h1><h2 id="不过你现在可以回去了"><a href="#不过你现在可以回去了" class="headerlink" title="不过你现在可以回去了"></a>不过你现在可以<a href="https://chitang233.github.io" target="_blank" rel="noopener">回去</a>了</h2>]]></content>
       
     </entry>
     
@@ -110,22 +110,22 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/links/index.html"/>
-      <url>/links/index.html</url>
+      <title></title>
+      <link href="/about/site.html"/>
+      <url>/about/site.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="关于站点"><a href="#关于站点" class="headerlink" title="关于站点"></a>关于站点</h1><p>这是一个个人博客</p><p>归池塘所有</p><p>所有内容…都是自己摸索</p><p>好吧剩下我说不下去了</p><p>这个页面就拿来记录站点重大更新好了</p><h2 id="开始运行"><a href="#开始运行" class="headerlink" title="开始运行"></a>开始运行</h2><p>2020-6-25 20:49:30</p><p>此博客雏形制作完成</p><p>并托管至<code>Github Pages</code></p><p>当时使用<code>NExT Theme</code></p><h2 id="重大主题更新"><a href="#重大主题更新" class="headerlink" title="重大主题更新"></a>重大主题更新</h2><p>2020-6-26 15:30:04</p><p>博客完成重大主题更新</p><p>将<code>NExT</code>改为<code>Yun</code></p><p>并做了<strong>许多</strong> <u>许多</u> <em>许多</em>的功能自定义</p><p>头都大了</p><p>还顺带（确信）完成了1200字左右的<code>Hexo</code>博客搭建教程</p><h2 id="Github-用户名更改"><a href="#Github-用户名更改" class="headerlink" title="Github 用户名更改"></a>Github 用户名更改</h2><p>妈呀改个用户名出来的问题真的多</p><p>我人都傻了</p><p>搞半天才搞好…</p><p>等会还等再去<a href="https://github.com/YunYouJun/hexo-theme-yun/issues/3" target="_blank" rel="noopener">这儿</a>改下信息…</p>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title></title>
-      <link href="/about/site.html"/>
-      <url>/about/site.html</url>
+      <title>友链</title>
+      <link href="/links/index.html"/>
+      <url>/links/index.html</url>
       
-        <content type="html"><![CDATA[<h1 id="关于站点"><a href="#关于站点" class="headerlink" title="关于站点"></a>关于站点</h1><p>这是一个个人博客</p><p>归池塘所有</p><p>所有内容…都是自己摸索</p><p>好吧剩下我说不下去了</p><p>这个页面就拿来记录站点重大更新好了</p><h2 id="开始运行"><a href="#开始运行" class="headerlink" title="开始运行"></a>开始运行</h2><p>2020-6-25 20:49:30</p><p>此博客雏形制作完成</p><p>并托管至<code>Github Pages</code></p><p>当时使用<code>NExT Theme</code></p><h2 id="重大主题更新"><a href="#重大主题更新" class="headerlink" title="重大主题更新"></a>重大主题更新</h2><p>2020-6-26 15:30:04</p><p>博客完成重大主题更新</p><p>将<code>NExT</code>改为<code>Yun</code></p><p>并做了<strong>许多</strong> <u>许多</u> <em>许多</em>的功能自定义</p><p>头都大了</p><p>还顺带（确信）完成了1200字左右的<code>Hexo</code>博客搭建教程</p><h2 id="Github-用户名更改"><a href="#Github-用户名更改" class="headerlink" title="Github 用户名更改"></a>Github 用户名更改</h2><p>妈呀改个用户名出来的问题真的多</p><p>我人都傻了</p><p>搞半天才搞好…</p><p>等会还等再去<a href="https://github.com/YunYouJun/hexo-theme-yun/issues/3" target="_blank" rel="noopener">这儿</a>改下信息…</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
