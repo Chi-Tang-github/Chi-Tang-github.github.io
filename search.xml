@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>为-Github-Pages-增加域名解析并使用-SSL</title>
+      <title>为 Github Pages 增加域名解析并使用 SSL</title>
       <link href="/2020/07/30/%E4%B8%BA-Github-Pages-%E5%A2%9E%E5%8A%A0%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E5%B9%B6%E4%BD%BF%E7%94%A8-SSL/"/>
       <url>/2020/07/30/%E4%B8%BA-Github-Pages-%E5%A2%9E%E5%8A%A0%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E5%B9%B6%E4%BD%BF%E7%94%A8-SSL/</url>
       
-        <content type="html"><![CDATA[<h1 id="获取域名"><a href="#获取域名" class="headerlink" title="获取域名"></a>获取域名</h1><p>去<a href="freenom.com"><code>Freenom</code></a>获取一个免费的域名</p><p>然后在你域名管理中</p><p>选择<code>Nameservers</code></p><p><code>Use custom nameservers (enter below)</code></p><p><code>Nameserver 1</code>填写<code>F1G1NS1.DNSPOD.NET</code></p><p><code>Nameserver 2</code>填写<code>F1G1NS2.DNSPOD.NET</code></p><p>点击<code>Change Nameservers</code></p><h1 id="增加CNAME文件"><a href="#增加CNAME文件" class="headerlink" title="增加CNAME文件"></a>增加<code>CNAME</code>文件</h1><h2 id="非Hexo"><a href="#非Hexo" class="headerlink" title="非Hexo"></a>非<code>Hexo</code></h2><p>在你的<code>Github Pages</code>所在的仓库根目录中中增加<code>CNAME</code>文件</p><p>无需扩展名</p><p>往里面写上你的域名</p><p>比如我的<code>CNAME</code>文件里面就是<code>chitang.tk</code></p><h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a><code>Hexo</code></h2><p>在<code>&lt;Hexo工作目录&gt;\source\</code>中新建CNAME</p><p>使用文本编辑器打开</p><p>写入你的域名</p><p>比如我的<code>CNAME</code>文件里面就是<code>chitang.tk</code></p><h1 id="DNSPOD设置域名解析"><a href="#DNSPOD设置域名解析" class="headerlink" title="DNSPOD设置域名解析"></a><code>DNSPOD</code>设置域名解析</h1><p>在<a href="https://dnspod.cn" target="_blank" rel="noopener">Dnspod</a>这里注册一个账号</p><p>进入<a href="https://console.dnspod.cn/" target="_blank" rel="noopener">控制台</a></p><p>在左侧栏中找到<code>DNS解析</code>中的<code>我的域名</code></p><p>添加域名</p><p>域名就是你的<code>Freenom</code>域名</p><p>其他的保持默认</p><p>添加这两个记录</p><table><thead><tr><th>主机记录</th><th>记录类型</th><th>记录值</th></tr></thead><tbody><tr><td>@</td><td>A</td><td>填写ping github.io得到的IP地址</td></tr><tr><td>www</td><td>CNAME</td><td><code>&lt;Your Github Name&gt;.github.io</code></td></tr></tbody></table><h1 id="SSL设置"><a href="#SSL设置" class="headerlink" title="SSL设置"></a><code>SSL</code>设置</h1><p>依旧在<code>DNSPOD</code>中</p><p>给你的域名申请一个免费的<code>SSL证书</code></p><p>申请成功后去你Github Pages所在的仓库</p><p>点击<code>Settings</code></p><p>找到<code>Enforce HTTPS</code>并勾选</p><p>如果是在24小时内更改过<code>CNAME</code>文件</p><p>则需要等待24小时后才能勾选</p><h1 id="End"><a href="#End" class="headerlink" title="End"></a>End</h1><p>芜湖写完了</p><p>话说博客也好久没更新了啊</p><p>以及现在博客就可以通过<a href="https://chitang.tk进行访问" target="_blank" rel="noopener">https://chitang.tk进行访问</a></p><p>挺舒服的xD</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="获取域名"><a href="#获取域名" class="headerlink" title="获取域名"></a>获取域名</h1><p>去<a href="https://freenom.com/" target="_blank" rel="noopener"><code>Freenom</code></a>获取一个免费的域名</p><p>然后在你域名管理中</p><p>选择<code>Nameservers</code></p><p><code>Use custom nameservers (enter below)</code></p><p><code>Nameserver 1</code>填写<code>F1G1NS1.DNSPOD.NET</code></p><p><code>Nameserver 2</code>填写<code>F1G1NS2.DNSPOD.NET</code></p><p>点击<code>Change Nameservers</code></p><h1 id="增加CNAME文件"><a href="#增加CNAME文件" class="headerlink" title="增加CNAME文件"></a>增加<code>CNAME</code>文件</h1><h2 id="非Hexo"><a href="#非Hexo" class="headerlink" title="非Hexo"></a>非<code>Hexo</code></h2><p>在你的<code>Github Pages</code>所在的仓库根目录中中增加<code>CNAME</code>文件</p><p>无需扩展名</p><p>往里面写上你的域名</p><p>比如我的<code>CNAME</code>文件里面就是<code>chitang.tk</code></p><h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a><code>Hexo</code></h2><p>在<code>&lt;Hexo工作目录&gt;\source\</code>中新建CNAME</p><p>使用文本编辑器打开</p><p>写入你的域名</p><p>比如我的<code>CNAME</code>文件里面就是<code>chitang.tk</code></p><h1 id="DNSPOD设置域名解析"><a href="#DNSPOD设置域名解析" class="headerlink" title="DNSPOD设置域名解析"></a><code>DNSPOD</code>设置域名解析</h1><p>在<a href="https://dnspod.cn" target="_blank" rel="noopener">Dnspod</a>这里注册一个账号</p><p>进入<a href="https://console.dnspod.cn/" target="_blank" rel="noopener">控制台</a></p><p>在左侧栏中找到<code>DNS解析</code>中的<code>我的域名</code></p><p>添加域名</p><p>域名就是你的<code>Freenom</code>域名</p><p>其他的保持默认</p><p>添加这两个记录</p><table><thead><tr><th>主机记录</th><th>记录类型</th><th>记录值</th></tr></thead><tbody><tr><td>@</td><td>A</td><td>填写ping github.io得到的IP地址</td></tr><tr><td>www</td><td>CNAME</td><td><code>&lt;Your Github Name&gt;.github.io</code></td></tr></tbody></table><h1 id="SSL设置"><a href="#SSL设置" class="headerlink" title="SSL设置"></a><code>SSL</code>设置</h1><p>依旧在<code>DNSPOD</code>中</p><p>给你的域名申请一个免费的<code>SSL证书</code></p><p>申请成功后去你Github Pages所在的仓库</p><p>点击<code>Settings</code></p><p>找到<code>Enforce HTTPS</code>并勾选</p><p>如果是在24小时内更改过<code>CNAME</code>文件</p><p>则需要等待24小时后才能勾选</p><h1 id="End"><a href="#End" class="headerlink" title="End"></a>End</h1><p>芜湖写完了</p><p>话说博客也好久没更新了啊</p><p>以及现在博客就可以通过 <a href="https://chitang.tk">https://chitang.tk</a> 进行访问</p><p>挺舒服的xD</p>]]></content>
       
       
       
@@ -99,11 +99,11 @@
     
     
     <entry>
-      <title>about</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>友链</title>
+      <link href="/links/index.html"/>
+      <url>/links/index.html</url>
       
-        <content type="html"><![CDATA[<p><strong>我是池塘，一个13岁的初中生</strong></p><p>在一次误打误撞的机会</p><p>我进入了<a href="https://space.bilibili.com/113980518" target="_blank" rel="noopener">bilibili</a></p><p>从此一发不可收拾</p><p>认识了<strong>博客</strong> 知道了<strong>电脑知识</strong> <strong>手机技巧</strong> <strong>做视频</strong></p><p><u>2018-4-7</u></p><p>我的第一个视频发布在了b站</p><p>制作差劲</p><p>内容无趣</p><p>但还是<strong>坚持</strong>了下来</p><p>一切仅凭<strong>兴趣爱好</strong></p><p>向大家分享着自己喜欢的内容</p><p>b站</p><p>似乎变味了</p><p>但我依旧喜欢着它</p><p>而我</p><p>在b站</p><p>跟来自各地的小伙伴</p><p>学到了许多</p><p>许多</p><p>现在</p><p>制作了自己的博客</p><p>可能以后b站不再是我唯一的“圣地”</p><p>但放心</p><p>两个地方</p><p>一个都不会忘</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -121,11 +121,11 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/links/index.html"/>
-      <url>/links/index.html</url>
+      <title>about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p><strong>我是池塘，一个13岁的初中生</strong></p><p>在一次误打误撞的机会</p><p>我进入了<a href="https://space.bilibili.com/113980518" target="_blank" rel="noopener">bilibili</a></p><p>从此一发不可收拾</p><p>认识了<strong>博客</strong> 知道了<strong>电脑知识</strong> <strong>手机技巧</strong> <strong>做视频</strong></p><p><u>2018-4-7</u></p><p>我的第一个视频发布在了b站</p><p>制作差劲</p><p>内容无趣</p><p>但还是<strong>坚持</strong>了下来</p><p>一切仅凭<strong>兴趣爱好</strong></p><p>向大家分享着自己喜欢的内容</p><p>b站</p><p>似乎变味了</p><p>但我依旧喜欢着它</p><p>而我</p><p>在b站</p><p>跟来自各地的小伙伴</p><p>学到了许多</p><p>许多</p><p>现在</p><p>制作了自己的博客</p><p>可能以后b站不再是我唯一的“圣地”</p><p>但放心</p><p>两个地方</p><p>一个都不会忘</p>]]></content>
       
     </entry>
     
