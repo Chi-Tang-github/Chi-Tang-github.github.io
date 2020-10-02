@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Howdy - Linux 的人脸识别</title>
+      <link href="/2020/10/02/Howdy-Linux-%E7%9A%84%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB/"/>
+      <url>/2020/10/02/Howdy-Linux-%E7%9A%84%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言的前言"><a href="#前言的前言" class="headerlink" title="前言的前言"></a>前言的前言</h1><p>嗨呀好久没更新了呢</p><p>时逢 8 天长假</p><p>懒得更视频就先来更个博客好了</p><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>这几天逛 Github 的时候看到了个有意思的东西: <a href="https://github.com/boltgolt/howdy" target="_blank" rel="noopener">Howdy</a></p><p><img src="https://s1.ax1x.com/2020/10/02/0lWMAf.png" alt="Howdy on Github"></p><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>README 里的介绍是这样的: </p><blockquote><p>Howdy provides Windows Hello™ style authentication for Linux. Use your built-in IR emitters and camera in combination with facial recognition to prove who you are.</p><p>Using the central authentication system (PAM), this works everywhere you would otherwise need your password: Login, lock screen, sudo, su, etc.</p></blockquote><p>翻译过来大概是这个意思:</p><blockquote><p>Howdy 为 Linux 提供了 Windows Hello™ 风格的认证。使用内置的红外发射器和摄像头，结合面部识别来证明你是谁。</p><p>使用中央认证系统（PAM），这意味着在任何需要密码的地方都可以使用 Howdy。包括登录、锁屏、<code>sudo</code>、<code>su</code>等。</p></blockquote><p>虽说是需要红外发射器</p><p>但实际上并不需要红外发射器</p><p>整一个摄像头就可以有用了</p><p>红外发射器只是用于夜间使用</p><h1 id="开装"><a href="#开装" class="headerlink" title="开装"></a>开装</h1><h2 id="Arch-Linux"><a href="#Arch-Linux" class="headerlink" title="Arch Linux"></a>Arch Linux</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yay -S howdy</span><br></pre></td></tr></table></figure><p>是的没错，Howdy 在 AUR 里面</p><p>所以可以直接通过 yay 进行安装</p><h2 id="Linux-mint-or-buntu"><a href="#Linux-mint-or-buntu" class="headerlink" title="Linux mint or *buntu"></a>Linux mint or *buntu</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:boltgolt/howdy</span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt install howdy</span><br></pre></td></tr></table></figure><p>Ubuntu 这边就有点难受了</p><p>需要手动添加 ppa 源进行安装</p><h2 id="Debian"><a href="#Debian" class="headerlink" title="Debian"></a>Debian</h2><p>Debian 原版这边就有点惨了，Github 那边表示只能在 <a href="https://github.com/boltgolt/howdy/releases" target="_blank" rel="noopener">Release 界面</a> 里手动下载安装</p><h2 id="Fedora"><a href="#Fedora" class="headerlink" title="Fedora"></a>Fedora</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf copr enable luya/howdy</span><br><span class="line">sudo dnf install howdy</span><br></pre></td></tr></table></figure><p>Fedora 的情况跟 Ubuntu 差不多</p><p>需要手动加 COPR 源</p><h2 id="openSUSE"><a href="#openSUSE" class="headerlink" title="openSUSE"></a>openSUSE</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo zypper in howdy</span><br></pre></td></tr></table></figure><p>openSUSE 这边可以直接通过 zypper 来安装</p><h2 id="废话"><a href="#废话" class="headerlink" title="废话"></a>废话</h2><p>妈的 AUR 下载速度真的慢成狗了</p><p>从晚上六点左右到快10点了</p><p>下了三个小时了还没下完</p><p>草！！！</p><p><img src="https://s1.ax1x.com/2020/10/02/0lIRhV.png" alt=""></p><p><img src="https://s1.ax1x.com/2020/10/02/0lIfpT.png" alt=""></p><h1 id="未完待续…"><a href="#未完待续…" class="headerlink" title="未完待续…"></a>未完待续…</h1>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>为 Github Pages 增加域名解析并使用 SSL</title>
       <link href="/2020/07/30/%E4%B8%BA-Github-Pages-%E5%A2%9E%E5%8A%A0%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E5%B9%B6%E4%BD%BF%E7%94%A8-SSL/"/>
       <url>/2020/07/30/%E4%B8%BA-Github-Pages-%E5%A2%9E%E5%8A%A0%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E5%B9%B6%E4%BD%BF%E7%94%A8-SSL/</url>
@@ -110,17 +129,6 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/links/index.html"/>
-      <url>/links/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/about/site.html"/>
       <url>/about/site.html</url>
@@ -137,6 +145,17 @@
       <url>/wdnmd/index.html</url>
       
         <content type="html"><![CDATA[<h1 id="WDNMD-too"><a href="#WDNMD-too" class="headerlink" title="WDNMD,too"></a>WDNMD,too</h1><p><em><code>Just kidding xD</code></em></p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友链</title>
+      <link href="/links/index.html"/>
+      <url>/links/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
