@@ -7,19 +7,24 @@ const rootElementDarkModeAttributeName = "data-user-color-scheme";
 const setLS = (k, v) => {
   try {
     localStorage.setItem(k, v);
-  } catch (e) {}
+  } catch (e) {
+    console.log(e.message);
+  }
 };
 
 const removeLS = (k) => {
   try {
     localStorage.removeItem(k);
-  } catch (e) {}
+  } catch (e) {
+    console.log(e.message);
+  }
 };
 
 const getLS = (k) => {
   try {
     return localStorage.getItem(k);
   } catch (e) {
+    console.log(e.message);
     return null;
   }
 };
@@ -57,6 +62,9 @@ const invertDarkModeObj = {
   light: "dark",
 };
 
+/**
+ * get target mode
+ */
 const toggleCustomDarkMode = () => {
   let currentSetting = getLS(darkModeStorageKey);
 
@@ -68,14 +76,53 @@ const toggleCustomDarkMode = () => {
     return;
   }
   setLS(darkModeStorageKey, currentSetting);
-
   return currentSetting;
 };
 
-applyCustomDarkModeSettings();
+/**
+ * bind click event for toggle button
+ */
+function bindToggleButton() {
+  if (window["toggle-mode-btn"]) {
+    window["toggle-mode-btn"].addEventListener("click", () => {
+      const mode = toggleCustomDarkMode();
+      applyCustomDarkModeSettings(mode);
+      toggleCodeblockCss(mode);
+    });
+  }
+}
 
-document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("toggle-mode-btn").addEventListener("click", () => {
-    applyCustomDarkModeSettings(toggleCustomDarkMode());
-  });
-});
+/**
+ * toggle prism css for light and dark
+ * @param {*} mode 模式
+ */
+function toggleCodeblockCss(mode) {
+  const invertMode = invertDarkModeObj[mode];
+  const invertModePrismCss = document.getElementById(`${invertMode}-prism-css`);
+  if (invertModePrismCss) {
+    invertModePrismCss.setAttribute(
+      "media",
+      "(prefers-color-scheme: no-preference)"
+    );
+    document.getElementById(`${mode}-prism-css`).removeAttribute("media");
+  }
+}
+
+applyCustomDarkModeSettings();
+document.addEventListener("DOMContentLoaded", bindToggleButton);
+document.addEventListener("pjax:success", bindToggleButton);
+
+// judge by time
+if (CONFIG.mode === "time") {
+  const now = new Date();
+  const hour = now.getHours();
+  if (hour < 7 && hour >= 19) {
+    setTimeout(() => {
+      toggleCodeblockCss("dark");
+    }, 200);
+    const mode = toggleCustomDarkMode();
+    if (mode === "dark") {
+      applyCustomDarkModeSettings(mode);
+    }
+  }
+}
