@@ -8,6 +8,25 @@
       <link href="/2020/10/02/Howdy-Linux-%E7%9A%84%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB/"/>
       <url>/2020/10/02/Howdy-Linux-%E7%9A%84%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB/</url>
       
+        <content type="html"><![CDATA[<h1 id="前言的前言"><a href="#前言的前言" class="headerlink" title="前言的前言"></a>前言的前言</h1><p>嗨呀好久没更新了呢</p><p>时逢 8 天长假</p><p>懒得更视频就先来更个博客好了</p><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>这几天逛 Github 的时候看到了个有意思的东西: <a href="https://github.com/boltgolt/howdy" target="_blank" rel="noopener">Howdy</a></p><p><img src="https://s1.ax1x.com/2020/10/02/0lWMAf.png" alt="Howdy on Github"></p><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>README 里的介绍是这样的: </p><blockquote><p>Howdy provides Windows Hello™ style authentication for Linux. Use your built-in IR emitters and camera in combination with facial recognition to prove who you are.</p><p>Using the central authentication system (PAM), this works everywhere you would otherwise need your password: Login, lock screen, sudo, su, etc.</p></blockquote><p>翻译过来大概是这个意思:</p><blockquote><p>Howdy 为 Linux 提供了 Windows Hello™ 风格的认证。使用内置的红外发射器和摄像头，结合面部识别来证明你是谁。</p><p>使用中央认证系统（PAM），这意味着在任何需要密码的地方都可以使用 Howdy。包括登录、锁屏、<code>sudo</code>、<code>su</code>等。</p></blockquote><p>虽说是需要红外发射器</p><p>但实际上并不需要红外发射器</p><p>整一个摄像头就可以有用了</p><p>红外发射器只是用于夜间使用</p><h1 id="开装"><a href="#开装" class="headerlink" title="开装"></a>开装</h1><h2 id="请注意，本教程仅适用于-Arch-Linux"><a href="#请注意，本教程仅适用于-Arch-Linux" class="headerlink" title="请注意，本教程仅适用于 Arch Linux"></a>请注意，本教程仅适用于 Arch Linux</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="SHELL"><figure class="iseeu highlight /shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yay -S howdy</span><br></pre></td></tr></table></figure></div><p>是的没错，Howdy 在 AUR 里面</p><p>所以可以直接通过 yay 进行安装</p><h2 id="废话"><a href="#废话" class="headerlink" title="废话"></a>废话</h2><p>妈的 AUR 下载速度真的慢成狗了</p><p>从晚上六点左右到快10点了</p><p>下了三个小时了还没下完</p><p>草！！！</p><p><img src="https://s1.ax1x.com/2020/10/02/0lIRhV.png" alt=""></p><p><img src="https://s1.ax1x.com/2020/10/02/0lIfpT.png" alt=""></p><h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Howdy - Linux 的人脸识别</title>
+      <link href="/2020/10/02/Howdy-Linux-%E7%9A%84%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB-%E5%86%B2%E7%AA%81-Chi_Tang_Win10/"/>
+      <url>/2020/10/02/Howdy-Linux-%E7%9A%84%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB-%E5%86%B2%E7%AA%81-Chi_Tang_Win10/</url>
+      
         <content type="html"><![CDATA[<h1 id="前言的前言"><a href="#前言的前言" class="headerlink" title="前言的前言"></a>前言的前言</h1><p>嗨呀好久没更新了呢</p><p>时逢 8 天长假</p><p>懒得更视频就先来更个博客好了</p><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>这几天逛 Github 的时候看到了个有意思的东西: <a href="https://github.com/boltgolt/howdy" target="_blank" rel="noopener">Howdy</a></p><p><img src="https://s1.ax1x.com/2020/10/02/0lWMAf.png" alt="Howdy on Github"></p><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>README 里的介绍是这样的: </p><blockquote><p>Howdy provides Windows Hello™ style authentication for Linux. Use your built-in IR emitters and camera in combination with facial recognition to prove who you are.</p><p>Using the central authentication system (PAM), this works everywhere you would otherwise need your password: Login, lock screen, sudo, su, etc.</p></blockquote><p>翻译过来大概是这个意思:</p><blockquote><p>Howdy 为 Linux 提供了 Windows Hello™ 风格的认证。使用内置的红外发射器和摄像头，结合面部识别来证明你是谁。</p><p>使用中央认证系统（PAM），这意味着在任何需要密码的地方都可以使用 Howdy。包括登录、锁屏、<code>sudo</code>、<code>su</code>等。</p></blockquote><p>虽说是需要红外发射器</p><p>但实际上并不需要红外发射器</p><p>整一个摄像头就可以有用了</p><p>红外发射器只是用于夜间使用</p><h1 id="开装"><a href="#开装" class="headerlink" title="开装"></a>开装</h1><h2 id="请注意，本教程仅适用于-Arch-Linux"><a href="#请注意，本教程仅适用于-Arch-Linux" class="headerlink" title="请注意，本教程仅适用于 Arch Linux"></a>请注意，本教程仅适用于 Arch Linux</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="SHELL"><figure class="iseeu highlight /shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yay -S howdy</span><br></pre></td></tr></table></figure></div><p>是的没错，Howdy 在 AUR 里面</p><p>所以可以直接通过 yay 进行安装</p><h2 id="废话"><a href="#废话" class="headerlink" title="废话"></a>废话</h2><p>妈的 AUR 下载速度真的慢成狗了</p><p>从晚上六点左右到快10点了</p><p>下了三个小时了还没下完</p><p>草！！！</p><p><img src="https://s1.ax1x.com/2020/10/02/0lIRhV.png" alt=""></p><p><img src="https://s1.ax1x.com/2020/10/02/0lIfpT.png" alt=""></p><h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><h2 id="先前准备"><a href="#先前准备" class="headerlink" title="先前准备"></a>先前准备</h2><h3 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h3><p>既然是人脸识别</p><p>那肯定需要用到摄像头</p><p>去 tb 随便找个 30 包邮 USB 摄像头就能用</p><p>如果你想要夜间认证那可以选择红外摄像头</p><h3 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h3><h4 id="检测摄像头设备"><a href="#检测摄像头设备" class="headerlink" title="检测摄像头设备"></a>检测摄像头设备</h4><p>请确保摄像头正常工作</p><p>可以使用 <code>Cheese</code> <code>VLC</code> 等应用访问摄像头查看工作状况</p><p>如果确保摄像头工作正常</p><p>那可以确认摄像头的设备名</p><p>我这里使用 <code>v4l2-ctl</code> 进行确认</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="SHELL"><figure class="iseeu highlight /shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo pacman -S v4l-utils#没有 v4l-utils 先安装</span><br><span class="line">v4l2-ctl --list-devices#列出所有的摄像头设备</span><br></pre></td></tr></table></figure></div><p><img src="https://s1.ax1x.com/2020/10/03/0337FK.png" alt=""></p><p>如果有多个摄像头设备以 <code>/dev/video0</code> 为准</p><h4 id="修改-howdy-config"><a href="#修改-howdy-config" class="headerlink" title="修改 howdy config"></a>修改 howdy config</h4><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="SHELL"><figure class="iseeu highlight /shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo howdy -U &lt;username&gt; config#将&lt;username&gt;更改为你的用户名，以下都这么用</span><br></pre></td></tr></table></figure></div><p>默认会使用 <code>nano</code> 打开 <code>config.ini</code></p><p><img src="https://s1.ax1x.com/2020/10/03/03841g.png" alt="sudo howdy -U chitang config"></p><p>你可以在这里面修改一些设置</p><p>所有选项都用注释来说明作用了</p><p>我们主要找的这个</p><p><img src="https://s1.ax1x.com/2020/10/03/038j9U.png" alt=""></p><p>将 <code>device_path =</code> 后面的内容更改成你的摄像头设备地址</p><h4 id="增加面部"><a href="#增加面部" class="headerlink" title="增加面部"></a>增加面部</h4><p>通过以下命令即可将面部注册到 Howdy 中</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="SHELL"><figure class="iseeu highlight /shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo howdy -U &lt;username&gt; add</span><br></pre></td></tr></table></figure></div><p>在正式开始录入面部前会要求输入一个 25 字以内的名字</p><p>用于标记面部</p><p><img src="https://gitee.com/chitang233/pictureBed/raw/master/Blog/face-add.png" alt="面部录入"></p><h4 id="Howdy-用法"><a href="#Howdy-用法" class="headerlink" title="Howdy 用法"></a>Howdy 用法</h4><table><thead><tr><th>命令</th><th>描述</th></tr></thead><tbody><tr><td><code>add</code></td><td>给一个用户增加一个新的面部模型</td></tr><tr><td><code>clear</code></td><td>给一个用户删除所有的面部模型</td></tr><tr><td><code>config</code></td><td>在你的默认编辑器中打开配置文件</td></tr><tr><td><code>disable</code></td><td>禁用或启用 Howdy</td></tr><tr><td><code>list</code></td><td>列出一个用户的所有面部</td></tr><tr><td><code>remove</code></td><td>给一个用户移除选定的面部</td></tr><tr><td><code>snapshot</code></td><td>给你的摄像头整个截图</td></tr><tr><td><code>test</code></td><td>测试摄像头</td></tr><tr><td><code>version</code></td><td>输出当前版本号</td></tr></tbody></table><h2 id="使-Howdy-能够用于-sudo-的认证"><a href="#使-Howdy-能够用于-sudo-的认证" class="headerlink" title="使 Howdy 能够用于 sudo 的认证"></a>使 Howdy 能够用于 sudo 的认证</h2><p>刚才说过了，Howdy 使用 PAM 认证系统</p><p>所以我们现在得去设置 PAM</p><p>更改 <code>/etc/pam.d/sudo</code> 中的文件</p><p>在它的第一行加上这么一句</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">authsufficientpam_python.so&#x2F;lib&#x2F;security&#x2F;howdy&#x2F;pam.py</span><br></pre></td></tr></table></figure></div><p><img src="https://gitee.com/chitang233/pictureBed/raw/master/Blog/%E2%81%84etc%E2%81%84pam.d%E2%81%84sudo.png" alt="我的 /etc/pam.d/sudo "></p><p>接着最好重启下电脑</p><p>尝试一下再用 sudo 干点事</p><p><img src="https://gitee.com/chitang233/pictureBed/raw/master/Blog/Wuhu.png" alt="芜湖起飞"></p>]]></content>
       
       
@@ -107,22 +126,22 @@
     
     
     <entry>
-      <title>about</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>9d49a982f0e99d242389acd553f9d934</title>
+      <link href="/9d49a982f0e99d242389acd553f9d934/index.html"/>
+      <url>/9d49a982f0e99d242389acd553f9d934/index.html</url>
       
-        <content type="html"><![CDATA[<p><strong>我是池塘，一个13岁的初中生</strong></p><p>在一次误打误撞的机会</p><p>我进入了<a href="https://space.bilibili.com/113980518" target="_blank" rel="noopener">bilibili</a></p><p>从此一发不可收拾</p><p>认识了<strong>博客</strong> 知道了<strong>电脑知识</strong> <strong>手机技巧</strong> <strong>做视频</strong></p><p><u>2018-4-7</u></p><p>我的第一个视频发布在了b站</p><p>制作差劲</p><p>内容无趣</p><p>但还是<strong>坚持</strong>了下来</p><p>一切仅凭<strong>兴趣爱好</strong></p><p>向大家分享着自己喜欢的内容</p><p>b站</p><p>似乎变味了</p><p>但我依旧喜欢着它</p><p>而我</p><p>在b站</p><p>跟来自各地的小伙伴</p><p>学到了许多</p><p>许多</p><p>现在</p><p>制作了自己的博客</p><p>可能以后b站不再是我唯一的“圣地”</p><p>但放心</p><p>两个地方</p><p>一个都不会忘</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="好哦，你找对地方了"><a href="#好哦，你找对地方了" class="headerlink" title="好哦，你找对地方了"></a>好哦，你找对地方了</h1><p><img src="https://s1.ax1x.com/2020/07/21/UoJpJs.jpg" alt="没有东西"></p>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>wdnmd</title>
-      <link href="/wdnmd/index.html"/>
-      <url>/wdnmd/index.html</url>
+      <title>about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[<h1 id="WDNMD-too"><a href="#WDNMD-too" class="headerlink" title="WDNMD,too"></a>WDNMD,too</h1><p><em><code>Just kidding xD</code></em></p>]]></content>
+        <content type="html"><![CDATA[<p><strong>我是池塘，一个13岁的初中生</strong></p><p>在一次误打误撞的机会</p><p>我进入了<a href="https://space.bilibili.com/113980518" target="_blank" rel="noopener">bilibili</a></p><p>从此一发不可收拾</p><p>认识了<strong>博客</strong> 知道了<strong>电脑知识</strong> <strong>手机技巧</strong> <strong>做视频</strong></p><p><u>2018-4-7</u></p><p>我的第一个视频发布在了b站</p><p>制作差劲</p><p>内容无趣</p><p>但还是<strong>坚持</strong>了下来</p><p>一切仅凭<strong>兴趣爱好</strong></p><p>向大家分享着自己喜欢的内容</p><p>b站</p><p>似乎变味了</p><p>但我依旧喜欢着它</p><p>而我</p><p>在b站</p><p>跟来自各地的小伙伴</p><p>学到了许多</p><p>许多</p><p>现在</p><p>制作了自己的博客</p><p>可能以后b站不再是我唯一的“圣地”</p><p>但放心</p><p>两个地方</p><p>一个都不会忘</p>]]></content>
       
     </entry>
     
@@ -140,11 +159,11 @@
     
     
     <entry>
-      <title>9d49a982f0e99d242389acd553f9d934</title>
-      <link href="/9d49a982f0e99d242389acd553f9d934/index.html"/>
-      <url>/9d49a982f0e99d242389acd553f9d934/index.html</url>
+      <title>wdnmd</title>
+      <link href="/wdnmd/index.html"/>
+      <url>/wdnmd/index.html</url>
       
-        <content type="html"><![CDATA[<h1 id="好哦，你找对地方了"><a href="#好哦，你找对地方了" class="headerlink" title="好哦，你找对地方了"></a>好哦，你找对地方了</h1><p><img src="https://s1.ax1x.com/2020/07/21/UoJpJs.jpg" alt="没有东西"></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="WDNMD-too"><a href="#WDNMD-too" class="headerlink" title="WDNMD,too"></a>WDNMD,too</h1><p><em><code>Just kidding xD</code></em></p>]]></content>
       
     </entry>
     
